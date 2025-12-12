@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AUNTY TEE — Cleaning Services</title>
+  <meta name="description" content="AUNTY TEE Residential & Commercial cleaning services. Reliable, insured, and eco-friendly cleaning solutions." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f7fafc;
+      --card:#ffffff;
+      --accent:#0aece8; /* teal */
+      --muted:#64748b;
+      --radius:16px;
+      --glass: rgba(255,255,255,0.6);
+      --shadow: 0 8px 30px rgba(2,6,23,0.07);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background:linear-gradient(180deg,var(--bg),#eef2f7);
+      color:#0f172a;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+      padding:24px;
+    }
+
+    /* container */
+    .site{max-width:1100px;margin:0 auto}
+
+    header{display:flex;align-items:center;justify-content:space-between;padding:12px 8px}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
+    .logo{display:inline-flex;align-items:center;gap:10px}
+    .logo svg{width:56px;height:56px}
+    .brand h1{font-size:18px;margin:0;font-weight:700}
+    .brand p{margin:0;font-size:12px;color:var(--muted)}
+
+    nav{display:flex;gap:14px;align-items:center}
+    nav a{color:var(--muted);text-decoration:none;font-weight:600}
+    .cta{background:var(--accent);color:white;padding:10px 14px;border-radius:12px;text-decoration:none;font-weight:700}
+
+    .hero{
+      margin-top:18px;
+      background:linear-gradient(180deg, rgba(14,165,163,0.06), rgba(255,255,255,0.6));
+      border-radius:var(--radius);
+      padding:36px;
+      display:grid;grid-template-columns:1fr 380px;gap:28px;align-items:center;box-shadow:var(--shadow);
+    }
+    .hero h2{margin:0;font-size:28px}
+    .hero p{color:var(--muted);margin:12px 0 18px}
+    .features{display:flex;gap:12px;flex-wrap:wrap}
+    .feature{background:var(--card);padding:10px 12px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.04);font-weight:600}
+
+    .booking{background:var(--card);padding:18px;border-radius:12px;box-shadow:var(--shadow)}
+    .booking label{display:block;font-size:13px;color:var(--muted);margin:8px 0 6px}
+    .booking input,.booking select,.booking textarea{width:100%;padding:10px;border-radius:10px;border:1px solid #e6eef2;font-size:14px}
+    .booking .row{display:flex;gap:8px}
+    .booking .row > *{flex:1}
+    .btn-primary{display:inline-block;background:var(--accent);color:white;padding:10px 14px;border-radius:12px;border:0;font-weight:700;margin-top:12px}
+
+    main{margin-top:28px;display:grid;grid-template-columns:1fr 320px;gap:24px}
+    .card{background:var(--card);padding:20px;border-radius:12px;box-shadow:var(--shadow)}
+    .services{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+    .service-item{padding:14px;border-radius:12px; background:linear-gradient(180deg, rgba(14,165,163,0.03), rgba(255,255,255,0.4));}
+
+    .about p{color:var(--muted)}
+    .pricing-list{display:flex;gap:12px;flex-wrap:wrap}
+    .price{flex:1;min-width:150px;padding:16px;border-radius:12px;background:linear-gradient(180deg,#fff,#fbfeff);box-shadow:0 6px 18px rgba(2,6,23,0.04)}
+
+    footer{margin-top:30px;text-align:center;color:var(--muted);font-size:14px}
+
+    /* responsive */
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr;}
+      main{grid-template-columns:1fr}
+      nav{display:none}
+      header{gap:12px}
+    }
+
+    @media (max-width:480px){
+      .brand h1{font-size:16px}
+      .logo svg{width:48px;height:48px}
+    }
+
+  </style>
+</head>
+<body>
+  <div class="site">
+    <header>
+      <a class="brand" href="#">
+        <div class="logo" aria-hidden="true">
+          <!-- Simple SVG logo: broom + sparkle -->
+            <img src="c:\Users\atlan\Downloads\WhatsApp Image 2025-10-07 at 22.23.33_bcdaaa60.jpg" alt="Cleaning Pro logo" width="76" height="76">
+         
+            <title id="logoTitle">AUNTY TEE logo</title>
+            <defs>
+              <linearGradient id="g" x1="0" x2="1">
+                <stop offset="0" stop-color="#06b6d4"/>
+                <stop offset="1" stop-color="#0ea5a3"/>
+              </linearGradient>
+            </defs>
+            <rect width="64" height="64" rx="12" fill="url(#g)" />
+            <g transform="translate(10,10) scale(0.8)" fill="#fff">
+              <path d="M2 34c4-2 10-12 18-18 5-4 9-6 12-6 2 0 4 2 4 4 0 3-2 7-6 12-6 8-16 14-18 18l-12 0 0-10z" />
+              <path d="M42 8l3-6 3 6 6 3-6 3-3 6-3-6-6-3z" fill="#ffffff" opacity="0.95" />
+            </g>
+          </svg>
+        </div>
+        <div>
+          <h1>AUNTY TEE</h1>
+          <p>Trusted • Insured • Eco-friendly</p>
+        </div>
+      </a>
+
+      <nav aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a class="cta" href="#contact">Book Now</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h2>Professional cleaning for homes & businesses</h2>
+        <p>Fast, reliable, and eco-conscious cleaning. Flexible scheduling, background-checked teams, and 100% satisfaction guarantee.</p>
+        <div class="features" aria-hidden="true">
+          <span class="feature">Same-week availability</span>
+          <span class="feature">Green products</span>
+          <span class="feature">Bonded & insured</span>
+        </div>
+        <p style="margin-top:18px"><strong>Starting at M30.00 </strong> — free estimates for first-time customers.</p>
+      </div>
+
+      <aside class="booking" id="contact" aria-labelledby="bookingTitle">
+        <h3 id="bookingTitle" style="margin:0 0 8px 0">Request a quote</h3>
+        <form action="https://form.jotform.com/252806121330545" method="POST">
+
+        
+          <label for="name">Full name</label>
+          <input id="name" name="name" required placeholder="Jane Doe">
+
+          <label for="nkoelesole66@gmail">Email</label>
+          <input id="email" name="email" type="email" required placeholder="you@example.com">
+
+          <div class="row">
+            <div>
+              <label for="service">Service</label>
+              <select id="service" name="service">
+                <option>Laundry</option>
+                <option>Regular house clean</option>
+                <option>Office / Commercial clean</option>
+                <option>Move in / Move out</option>
+                <option>Ironing</option>
+                <option>Windows</option>
+              </select>
+            </div>
+            <div>
+              <label for="date">Preferred date</label>
+              <input id="date" name="date" type="date">
+            </div>
+          </div>
+
+          <label for="notes">Notes (optional)</label>
+          <textarea id="notes" name="notes" rows="3" placeholder="Any access info, pets, or special requests"></textarea>
+
+          <button class="btn-primary" type="submit">Send request</button>
+        </form>
+        <p style="font-size:13px;color:var(--muted);margin-top:10px">Or call <strong>+266 63608875</strong></p>
+      </aside>
+    </section>
+
+    <main>
+      <section class="card">
+        <h3 id="services">Services we offer</h3>
+        <div class="services" aria-labelledby="services">
+          <div class="service-item"><strong>Office / Commercial clean</strong><p style="margin:8px 0;color:var(--muted)">Weekly, bi-weekly, or one-time deep cleans tailored to your home.</p></div>
+          <div class="service-item"><strong>Commercial & Office</strong><p style="margin:8px 0;color:var(--muted)">Flexible business cleaning outside office hours to minimize disruption.</p></div>
+          <div class="service-item"><strong>Move In / Move Out</strong><p style="margin:8px 0;color:var(--muted)">Make the property move-ready — we handle heavy-duty cleaning and waste removal.</p></div>
+          
+          <div class="service-item"><strong>Specialty Cleaning</strong><p style="margin:8px 0;color:var(--muted)">Carpet, upholstery, post-renovation, and event cleanup available.</p></div>
+          <div class="service-item"><strong>Ironing</strong><p style="margin:8px 0;color:var(--muted)"></p></div>
+        </div>
+
+        <h4 style="margin-top:16px">Why customers choose us</h4>
+        <ul style="color:var(--muted)">
+          <li>Transparent pricing and no hidden fees</li>
+          <li>EPA-approved environmentally friendly products</li>
+          <li>Background-checked and trained staff</li>
+          <li>100% satisfaction guarantee — we re-clean if you aren’t happy</li>
+        </ul>
+      </section>
+
+      <aside class="card">
+        <h4 id="pricing">Pricing guide</h4>
+        <div class="pricing-list">
+          <div class="price">
+            <strong>Standard Clean</strong>
+            <p style="margin:8px 0;color:var(--muted)">M50 / per room</p>
+          </div>
+          <div class="price">
+            <strong>Deep Clean</strong>
+            <p style="margin:8px 0;color:var(--muted)">M80 / per room</p>
+          </div>
+          <div class="price">
+            <strong>Commercial</strong>
+            <p style="margin:8px 0;color:var(--muted)">Custom quote</p>
+             </div>
+             <div class="price">
+            <strong>Laundry</strong>
+            <p style="margin:8px 0;color:var(--muted)">M100.00 small basket /M180.00 large basket </p>
+             </div>
+             <div class="price">
+                  <strong>Windows</strong>
+            <p style="margin:8px 0;color:var(--muted)">M120.00 for 3 Windows/ M30.00 4-9 rooms each/ extra </p>
+             </div>
+             <div class="price">
+                 
+            <strong>Ironing</strong>
+            <p style="margin:8px 0;color:var(--muted)">M60.00 small basket /M100.00 large basket</p>
+             </div>
+          
+          
+        </div>
+
+        <h4 style="margin-top:18px">Quick contact</h4>
+        <p style="color:var(--muted);margin:6px 0">nkoelesole66@gmail.com</p>
+        <p style="color:var(--muted);margin:6px 0">Phone: +266 58460161</p>
+
+        <div style="margin-top:12px">
+          <a class="btn-primary" href="#bookingForm" onclick="document.getElementById('name').focus();return false">Request a quote</a>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> AUNTY TEE. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script>
+    // friendly small JS for the demo site
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    function handleBooking(e){
+      e.preventDefault();
+      const form = e.target;
+      const data = {
+        name: form.name.value,
+        email: form.email.value,
+        service: form.service.value,
+        date: form.date.value,
+        notes: form.notes.value
+      };
+
+      // Basic client-side validation
+      if(!data.name || !data.email){
+        alert('Please provide name and email.');
+        return false;
+      }
+
+      // Demo: show a friendly confirmation. Replace with your API call.
+      alert('Thanks '+data.name+"! Your request for '"+data.service+"' was sent. We'll contact you at "+data.email+" shortly.");
+      form.reset();
+      return false;
+    }
+  </script>
+</body>
+</html>
